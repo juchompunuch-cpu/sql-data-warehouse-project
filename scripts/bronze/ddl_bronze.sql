@@ -16,7 +16,7 @@ create table bronze.crm_cust_info (
     cst_firstname varchar(100),
     cst_lastname varchar(100),
     cst_marital_status varchar(20),
-    cst_gndr char(1),
+    cst_gndr char(10),
     cst_create_date date
 );
 
