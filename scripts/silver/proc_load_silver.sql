@@ -61,8 +61,8 @@ begin
 			else 'n/a'
 		end as cst_marital_status,
 		case 
-			when upper(trim(cst_gndr)) = 'M' then 'Female'
-			when upper(trim(cst_gndr)) = 'F' then 'Male'
+			when upper(trim(cst_gndr)) = 'F' then 'Female'
+			when upper(trim(cst_gndr)) = 'M' then 'Male'
 			else 'n/a'
 		end as cst_gndr,
 			cst_create_date
